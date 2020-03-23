@@ -4,7 +4,7 @@ function showData(data, isDisplayed){
         console.log(data);
     }
 }
-
+//added comment #2
 function Car(brandName, model, productionYear){
    this.brandName = brandName;
    this.model = model;
