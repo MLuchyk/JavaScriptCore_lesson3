@@ -11,6 +11,8 @@ function Car(brandName, model, productionYear){
    this.productionYear = productionYear;
 }
 
+
+//added whitespace
 //create a prototype
 const myCar = _.create(Car.prototype, {brandName :'Toyota', model:'Corolla', productionYear: 2018});
 showData(myCar, true);
